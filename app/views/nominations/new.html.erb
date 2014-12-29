@@ -1,0 +1,15 @@
+<h3>Добавить номинацию</h3>
+
+<%= form_for @nomination do |f| %>
+    <p>
+        <%= f.label :title, "Заголовок" %><br>
+        <%= f.text_field :title %>
+    </p>
+    <p>
+        <%= f.label :description, "Описание" %><br>
+        <%= f.text_area :description %>
+    </p>
+    <p>
+        <%= f.submit "Сохранить" %>
+    </p>
+<% end %>

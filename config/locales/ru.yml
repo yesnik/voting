@@ -1,0 +1,8 @@
+ru:
+  activerecord:
+    models:
+      nomination: 'Номинация'
+    attributes:
+      nomination:
+        title: 'Заголовок'
+        description: 'Описание'

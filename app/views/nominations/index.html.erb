@@ -1,0 +1,6 @@
+<h3>Список номинаций</h3>
+<ul>
+<% @nominations.each do |nomination| %>
+    <li><%= link_to nomination.title, nomination_path(1) %></li>
+<% end %>
+</ul>

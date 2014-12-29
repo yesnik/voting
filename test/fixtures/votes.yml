@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cadidate_id: 
+  nonination_id: 
+  ip: MyString
+
+two:
+  cadidate_id: 
+  nonination_id: 
+  ip: MyString
